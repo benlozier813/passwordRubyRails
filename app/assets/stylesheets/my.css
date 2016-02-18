@@ -1,0 +1,51 @@
+span {
+  color: red;
+  text-align: center;
+  font-size: 25pt;
+}
+
+#results{
+
+  text-align: center;
+}
+
+#image {
+  text-align: center;
+}
+
+#closedchest {
+  height: 600px;
+  width: auto;
+  text-align: center;
+
+}
+
+#entercreds {
+  text-align: center;
+}
+.col-sm-4{
+  text-align: center;
+  margin-top: 15px;
+}
+
+.hearts {
+  height: 100px;
+  width: auto;
+}
+
+#rightheart.hidden{
+ opacity: .5px;
+}
+
+#emptyalert {
+  color: blue;
+}
+
+#image2 {
+  margin-top: 20px;
+  text-align: center;
+}
+
+p {
+  font-size: 20pt;
+}

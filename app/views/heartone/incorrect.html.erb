@@ -1,0 +1,32 @@
+
+<div id = "results" class="col-sm-12">
+<span id ="emptyalert">
+<%= @emptyalert %>
+</span>
+<span>
+  <%= @matchingalert %>
+</span>
+</div>
+<div id = "leftheart" class = "col-sm-4">
+<img class = "hearts" src = "http://vignette2.wikia.nocookie.net/zelda/images/8/85/Heart_Container_(Ocarina_of_Time_and_Majora's_Mask).png/revision/latest?cb=20091220215822" />
+</div>
+<div id = "centerheart" class = "col-sm-4">
+<img class = "hearts" src = "http://vignette2.wikia.nocookie.net/zelda/images/8/85/Heart_Container_(Ocarina_of_Time_and_Majora's_Mask).png/revision/latest?cb=20091220215822" />
+</div>
+<div id = "rightheart" class = "col-sm-4">
+</div>
+<div id = "image" class="col-sm-12">
+<img id = "closedchest" src="https://prollow.s3.amazonaws.com/files/8f14e45fceea167a5a36dedd4bea2543/0/8a176470-61cb-4579-adc0-1a3ea2647e3b.png"/>
+</div>
+
+<div id = "entercreds" class = "col-sm-12">
+<form action = "/heartone_password" method = "get">
+  <label for ="user_name_id"> User Name: </label>
+  <input type = "text" id = "user_name_id" pattern = "[a-zA-Z]{4,10}" name = "user_name" required/>
+  <label for ="password_id"> Password: </label>
+  <input type = "text" id = "password_id" pattern = "[a-zA-Z!@#]{4,10}" name = "password" required/>
+</br>
+</br>
+  <input type = "submit" id = "button" value = "Submit Credentials"/>
+</form>
+</div>
